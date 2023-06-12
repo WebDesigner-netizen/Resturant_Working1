@@ -1,0 +1,56 @@
+.container{
+    width: 22%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #d1411e;
+
+
+    margin-top: 7%;
+    margin-bottom: 6%;
+    font-family: Arial, sans-serif;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+
+
+    margin-bottom: 6%;
+    font-family: Arial, sans-serif;
+}
+
+.desc {
+    text-align: center;
+    color: #777;
+
+
+    margin-bottom: 10%;
+    font-size: 115%;
+    font-family: Arial, sans-serif;
+}
+
+@media screen and (max-width: 480px){
+    .container{
+      width: 100%;
+    }
+  
+    .title{
+      font-size: 30px;
+    }
+  
+    .price,
+    .desc{
+      font-size: 24px;
+    }
+}
